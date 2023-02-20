@@ -38,8 +38,8 @@ body {
 }
 
 /* Task 3 */
-/* Tablet */
-@media screen and (max-width: 800px) {
+
+@media (min-width: 720px){
 
 .container {
   grid-template-columns: repeat(12, 1fr);
@@ -84,10 +84,4 @@ body {
 
 @media (max-width: 720px) {
 }
-}
-
-/* Phone */
-@media screen and (max-width: 500px) {
-  /* Your CSS here */
-
 }

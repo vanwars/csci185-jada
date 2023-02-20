@@ -5,31 +5,36 @@ body {
 main{
     display:grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 30px;
+    column-gap: 30px;
+
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
 
     }
 
     .card{
         border-width:1px;
         border-style: solid;
-        grid-column-start: 1;
-        grid-column-end: 3;
+       
         margin:20px;
     }
 
     .card2{
         border-width: 1px;
         border-style:solid ;
-        grid-column-start: 4;
-        grid-column-end: 6;
+       
         margin:20px;
     }
     
     .card3{
         border-width: 1px;
         border-style:solid ;
-        grid-column-start: 1;
-        grid-column-end: 3;
+       
         margin:20px;
 
     }
@@ -37,8 +42,7 @@ main{
     .card4{
         border-width: 1px;
         border-style:solid ;
-        grid-column-start: 4;
-        grid-column-end: 6;
+       
         margin:20px;
 
     }
@@ -51,8 +55,7 @@ main{
             border-width: 1px;
             border-style:solid ;
         
-            grid-column-end: 6;
-            margin:20px;
+            margin:10px;
     
         }
     
